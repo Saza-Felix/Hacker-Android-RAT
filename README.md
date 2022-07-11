@@ -12,7 +12,9 @@ AndroRAT is a tool designed to give the control of the android system remotely a
 > AndroRAT also works on Android 10 (Q) but some of the interpreter command will be unstable. 
 
 ## Screenshots
-
+<p align="center">
+  <img src="Screenshots/5.JPG" width="800"/>
+</p>
 ![AndroRAT](Screenshots/5.jpg "AndroRAT in action")
 ## Features of AndroRAT 
 * Full persistent backdoor
