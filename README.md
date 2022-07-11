@@ -30,7 +30,7 @@ AndroRAT requires Python3 and JAVA (or Android Studio)
 
 ## Installation
 ```
-git clone https://github.com/karma9874/AndroRAT.git
+git clone https://github.com/felixwanjala001/AndroRAT.git
 cd AndroRAT
 pip install -r requirements.txt
 ```
