@@ -1,10 +1,10 @@
 **Disclaimer** : This software is meant for educational purposes only. I'm not responsible for any malicious use of the app.
 # AndroRAT 
 * Developer
-<p align="center">
-  <img src="Screenshots/saza.jpg" width="400"/>
+<p align="left">
+  <img src="Screenshots/saza.jpg" width="50" height="50"/>
   <br>
-  *Saza Felix
+  => Saza Felix
 </p>
 ------------------------------------------------------------------------------------------------------------------------------  
 ------------------------------------------------------------------------------------------------------------------------------  
