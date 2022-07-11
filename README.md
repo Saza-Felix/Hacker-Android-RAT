@@ -15,7 +15,7 @@ AndroRAT is a tool designed to give the control of the android system remotely a
 
 * AndroRAT In Action
 <p align="center">
-  <img src="Screenshots/5.JPG" width="800"/>
+  <img src="Screenshots/5.png" width="800"/>
 </p>
 ------------------------------------------------------------------------------------------------------------------------------  
 
