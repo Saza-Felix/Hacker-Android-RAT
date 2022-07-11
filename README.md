@@ -24,7 +24,7 @@ AndroRAT is a tool designed to give the control of the android system remotely a
 ## Screenshots
 
 * Saza-RAT In Action
-<p align="center">
+<p align="left">
   <img src="Screenshots/5.png" width="800"/>
 </p>
 ------------------------------------------------------------------------------------------------------------------------------  
