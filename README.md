@@ -1,5 +1,14 @@
 **Disclaimer** : This software is meant for educational purposes only. I'm not responsible for any malicious use of the app.
 # AndroRAT 
+* Developer
+<p align="center">
+  <img src="Screenshots/saza.jpg" width="400"/>
+  <br>
+  *Saza Felix
+</p>
+------------------------------------------------------------------------------------------------------------------------------  
+------------------------------------------------------------------------------------------------------------------------------  
+
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT) 
 [![Twitter Follow](https://img.shields.io/twitter/follow/karma9874?label=Follow&style=social)](https://twitter.com/karma9874)
